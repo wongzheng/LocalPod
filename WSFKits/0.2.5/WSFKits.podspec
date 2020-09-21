@@ -41,13 +41,13 @@ Pod::Spec.new do |s|
   # s.dependency 'AFNetworking', '>= 2.3'
   # s.dependency 'MJRefresh', '>= 3.1.12'
 
-  s.subspec 'Classes' do |ss|
-    ss.source_files = 'WSFKits/Classes/**/*'
-  end
+  # s.subspec 'Classes' do |ss|
+  #   ss.source_files = 'WSFKits/Classes/**/*'
+  # end
 
-  s.subspec 'Constants' do |ss|
-    ss.source_files = 'WSFKits/Constants/**/*'
-  end
+  # s.subspec 'Constants' do |ss|
+  #   ss.source_files = 'WSFKits/Constants/**/*'
+  # end
 
   s.subspec 'Categories' do |ss|
     ss.source_files = 'WSFKits/Categories/**/*'
