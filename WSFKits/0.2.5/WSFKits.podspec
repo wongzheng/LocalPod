@@ -43,7 +43,6 @@ Pod::Spec.new do |s|
 
   s.subspec 'Classes' do |ss|
     ss.source_files = 'WSFKits/Classes/**/*'
-    ss.dependency 'WSFKits/Categories'
   end
 
   s.subspec 'Constants' do |ss|
